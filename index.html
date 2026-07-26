@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,10 +6,19 @@
   <title>Timtechbuilder - Web Designer | Portfolio</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-    body { background: #f8f9fa; color: #333; }
+    
+    /* FIXED: Background image for whole page */
+    body { 
+      background-image: url('kemzy-bg.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333; 
+    }
     
     /* HERO - TIMTECHBUILDER */
-    .hero { background: linear-gradient(135deg, #ffcce0 0%, #e0f0ff 100%); padding: 40px 20px; text-align: center; }
+    .hero { background: rgba(255, 204, 224, 0.9); padding: 40px 20px; text-align: center; backdrop-filter: blur(2px); }
     .logo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 4px solid #fff; }
     .hero h1 { color: #0047ff; font-size: 30px; margin-bottom: 10px; }
     .hero p { font-size: 15px; margin-bottom: 20px; color: #444; }
@@ -19,7 +28,7 @@
     
     /* SECTIONS */
     .container { max-width: 700px; margin: auto; padding: 30px 20px; }
-    .card { background: #fff; border-radius: 16px; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .card { background: rgba(255,255,255,0.95); border-radius: 16px; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
     h2 { font-size: 24px; margin-bottom: 15px; color: #111; }
     
     /* PORTFOLIO */
@@ -81,51 +90,5 @@
 
   </div>
 
-</<style>
-body {
-  background-image: url('kemzy-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-}
-</style>>
+</body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timtechbuilder - Web Designer | Portfolio</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-    body { background: #f8f9fa; color: #333; }
-    .hero { background: linear-gradient(135deg, #ffcce0 0%, #e0f0ff 100%); padding: 40px 20px; text-align: center; }
-    .logo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 4px solid #fff; }
-    .hero h1 { color: #0047ff; font-size: 30px; margin-bottom: 10px; }
-    .btn { display: inline-block; background: #25D366; color: #fff; padding: 14px 25px; border-radius: 10px; text-decoration: none; font-weight: bold; margin: 8px; }
-    .btn-outline { background: #0047ff; }
-    .container { max-width: 700px; margin: auto; padding: 30px 20px; }
-    .card { background: #fff; border-radius: 16px; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    h2 { font-size: 24px; margin-bottom: 15px; color: #111; }
-    
-    /* PORTFOLIO */
-    .portfolio-item { border: 2px solid #eee; border-radius: 12px; padding: 20px; margin-bottom: 15px; }
-    .portfolio-item h3 { color: #d4af37; margin-bottom: 10px; }
-    .portfolio-bg { background: url('kemzy-bg.jpg') no-repeat center/cover; border-radius: 10px; padding: 25px; color: #fff; }
-    .portfolio-overlay { background: rgba(0,0,0,0.6); border-radius: 10px; padding: 20px; }
-    .btn-gold { background: #d4af37; color: #000; }
-    
-    /* TESTIMONIALS */
-    .testimonial { background: #f1f8ff; border-left: 4px solid #0047ff; padding: 15px; border-radius: 8px; margin-bottom: 12px; }
-    .testimonial p { font-style: italic; margin-bottom: 8px; }
-    .testimonial span { font-weight: bold; color: #0047ff; font-size: 14px; }
-    
-    /* FAQ */
-    .faq-item { margin-bottom: 15px; }
-    .faq-item h4 { margin-bottom: 5px; color: #0047ff; }
-  </style>
-</head>
-<body>
