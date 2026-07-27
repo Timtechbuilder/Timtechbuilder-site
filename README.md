@@ -1,2 +1,2 @@
 # Timtechbuilder-site
-Kemzy Leather Designs Website 
+TIMTECH DIGITAL SOLUTIONS - Web Design Agency in Lagos
